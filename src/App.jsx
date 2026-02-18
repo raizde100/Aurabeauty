@@ -56,8 +56,13 @@ function App() {
             <a href="#servicios">Servicios</a>
             <a href="#metodologia">Metodologia</a>
           </nav>
-          <a className="btn btn-main" href="mailto:Miranda@aurabeauty.pe">
-            Contactar
+          <a
+            className="btn btn-main"
+            href="https://aurabeauty.talentlms.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Iniciar sesión
           </a>
         </div>
       </header>
