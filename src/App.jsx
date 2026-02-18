@@ -98,7 +98,7 @@ function App() {
           </div>
 
           <figure className="hero-image">
-            <img src="/hero-retail-beauty.jpg" alt="Consultora de belleza atendiendo a una clienta en tienda retail" />
+            <img src="/hero-aura-client.png" alt="Consultora de belleza atendiendo a una clienta en tienda retail" />
           </figure>
         </section>
 
