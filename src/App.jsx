@@ -38,21 +38,6 @@ const services = [
   },
 ];
 
-const diagnosisBlocks = [
-  {
-    title: "Diagnostico comercial",
-    points: ["Conversion", "Ticket promedio", "Venta cruzada"],
-  },
-  {
-    title: "Diagnostico del equipo",
-    points: ["Conocimiento", "Tecnicas de venta", "Actitud comercial"],
-  },
-  {
-    title: "Diagnostico de experiencia",
-    points: ["Recepcion", "Recomendacion", "Cierre de venta"],
-  },
-];
-
 const methodSteps = [
   { title: "Diagnostico", detail: "1 a 4 semanas" },
   { title: "Oportunidades", detail: "Semana 4 a 5" },
@@ -69,7 +54,6 @@ function App() {
           <div className="logo">AURA</div>
           <nav>
             <a href="#servicios">Servicios</a>
-            <a href="#diagnostico">Diagnostico</a>
             <a href="#metodologia">Metodologia</a>
           </nav>
           <a className="btn btn-main" href="mailto:Miranda@aurabeauty.pe">
@@ -133,34 +117,6 @@ function App() {
               </article>
             ))}
           </div>
-        </section>
-
-        <section id="diagnostico" className="wrap section">
-          <div className="section-head">
-            <h2>Retail Performance Diagnosis</h2>
-          </div>
-
-          <div className="grid three">
-            {diagnosisBlocks.map((block) => (
-              <article className="card" key={block.title}>
-                <h3>{block.title}</h3>
-                <ul className="clean-list">
-                  {block.points.map((point) => (
-                    <li key={point}>{point}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
-          </div>
-
-          <article className="card goals">
-            <h3>Objetivos</h3>
-            <ol>
-              <li>Diagnosticar el estado comercial actual.</li>
-              <li>Identificar brechas de experiencia en tienda.</li>
-              <li>Proponer acciones de mejora concretas.</li>
-            </ol>
-          </article>
         </section>
 
         <section id="metodologia" className="wrap section">
