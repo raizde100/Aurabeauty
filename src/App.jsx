@@ -98,7 +98,7 @@ function App() {
           </div>
 
           <figure className="hero-image">
-            <img src="/hero-aura.svg" alt="Presentacion AURA Beauty Retail" />
+            <img src="/hero-retail-beauty.jpg" alt="Consultora de belleza atendiendo a una clienta en tienda retail" />
           </figure>
         </section>
 
