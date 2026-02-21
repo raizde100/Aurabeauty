@@ -58,7 +58,7 @@ function App() {
           </nav>
           <a
             className="btn btn-main"
-            href="https://aurabeauty.talentlms.com"
+            href="https://learn.aurabeauty.pe/login"
             target="_blank"
             rel="noreferrer"
           >
