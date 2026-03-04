@@ -3,46 +3,46 @@
 const impactItems = [
   {
     title: "Experiencia de marca",
-    text: "Mensaje mas consistente y mejor percepcion de expertise.",
+    text: "Mensaje más consistente y mejor percepción de expertise.",
   },
   {
     title: "Experiencia de cliente",
-    text: "Asesoria mas clara y recomendaciones mas relevantes.",
+    text: "Asesoría más clara y recomendaciones más relevantes.",
   },
   {
     title: "Equipo y performance",
-    text: "Mayor conversion, ticket promedio y venta cruzada.",
+    text: "Mayor conversión, ticket promedio y venta cruzada.",
   },
 ];
 
 const services = [
   {
     name: "Retail Performance Diagnosis",
-    bullets: ["Diagnostico comercial", "Diagnostico de equipo", "Diagnostico de experiencia"],
+    bullets: ["Diagnóstico comercial", "Diagnóstico de equipo", "Diagnóstico de experiencia"],
     detail: "Lectura real del punto de venta.",
   },
   {
     name: "Advisor Mastery Program",
-    bullets: ["Dominio de producto y piel", "Demostracion efectiva", "Conversacion beauty"],
+    bullets: ["Dominio de producto y piel", "Demostración efectiva", "Conversación beauty"],
     detail: "De vendedoras a consultoras de belleza.",
   },
   {
     name: "Sales & Retail Performance",
-    bullets: ["Abordaje en tienda", "Tecnicas de venta beauty", "Mentalidad comercial"],
+    bullets: ["Abordaje en tienda", "Técnicas de venta beauty", "Mentalidad comercial"],
     detail: "Entrenamiento enfocado en resultados.",
   },
   {
     name: "Brand & Retail Strategy",
-    bullets: ["Arquitectura en tienda", "Activaciones estrategicas", "Inteligencia de punto de venta"],
-    detail: "Alineacion entre marca y ejecucion.",
+    bullets: ["Arquitectura en tienda", "Activaciones estratégicas", "Inteligencia de punto de venta"],
+    detail: "Alineación entre marca y ejecución.",
   },
 ];
 
 const methodSteps = [
-  { title: "Diagnostico", detail: "1 a 4 semanas" },
+  { title: "Diagnóstico", detail: "1 a 4 semanas" },
   { title: "Oportunidades", detail: "Semana 4 a 5" },
-  { title: "Capacitacion", detail: "Semana 6 y 7" },
-  { title: "Ejecucion", detail: "Segun cada caso" },
+  { title: "Capacitación", detail: "Semana 6 y 7" },
+  { title: "Ejecución", detail: "Según cada caso" },
   { title: "Seguimiento", detail: "3 meses" },
 ];
 
@@ -54,7 +54,7 @@ function App() {
           <div className="logo">AURA</div>
           <nav>
             <a href="#servicios">Servicios</a>
-            <a href="#metodologia">Metodologia</a>
+            <a href="#metodologia">Metodología</a>
           </nav>
           <a
             className="btn btn-main"
@@ -73,7 +73,7 @@ function App() {
             <p className="eyebrow">BEAUTY RETAIL CONSULTING</p>
             <h1>Transformamos vendedoras en consultoras de belleza</h1>
             <p className="lead">
-              Consultoria comercial para mejorar conversion, ticket promedio y
+              Consultoría comercial para mejorar conversión, ticket promedio y
               experiencia en tienda.
             </p>
             <div className="actions">
@@ -126,7 +126,7 @@ function App() {
 
         <section id="metodologia" className="wrap section">
           <div className="section-head">
-            <h2>Metodologia</h2>
+            <h2>Metodología</h2>
           </div>
 
           <ol className="method-list">
@@ -155,7 +155,7 @@ function App() {
 
       <footer className="footer">
         <div className="wrap">
-          <p>Consultoria comercial para beauty retail.</p>
+          <p>Consultoría comercial para beauty retail.</p>
         </div>
       </footer>
     </>
